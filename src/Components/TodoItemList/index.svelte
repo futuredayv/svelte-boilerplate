@@ -15,6 +15,6 @@
 
 <div class="todoItemList">
 	{#each todoItemList as todo}
-		<TodoItem {todo} />
+		<TodoItem {...todo} />
 	{/each}
 </div>
