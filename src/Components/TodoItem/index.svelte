@@ -4,11 +4,13 @@
 
 	$: completed = status;
 
+	const toggleStatus = () => status = !status;
+
 </script>
 
 <style src="./style.scss"></style>
 
-<div class="todo-item" class:completed>
+<div class="todo-item" class:completed on:click={toggleStatus}>
 	<div class="todo-item__status">
 		<input type=checkbox bind:checked={completed}>
 	</div>
