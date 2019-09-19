@@ -22,6 +22,7 @@ module.exports = {
 			'@Components': path.resolve(__dirname, 'src/Components/'),
 			'@Services': path.resolve(__dirname, 'src/Services/'),
 			'@Assets': path.resolve(__dirname, 'src/Assets/'),
+			'@Store': path.resolve(__dirname, 'src/Store/')
 		},
 		extensions: ['.mjs', '.js', '.svelte'],
 		mainFields: ['svelte', 'browser', 'module', 'main']
