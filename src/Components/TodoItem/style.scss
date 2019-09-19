@@ -1,7 +1,17 @@
-.todoItem {
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+
+    &__name {
+        margin-left: 8px;   
+    }
     
     &.completed {
         color: rgba(0, 0, 0, 0.4);
-        text-decoration: overline;
+
+        .todo-item__name {
+            text-decoration: line-through;
+        }
     }
 }
