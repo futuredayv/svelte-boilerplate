@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sample renders without failing 1`] = `
+<body>
+  <div>
+    <div
+      class="todoItemList"
+    >
+      Hello World!
+    </div>
+  </div>
+</body>
+`;
